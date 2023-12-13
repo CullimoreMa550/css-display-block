@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        .inline{
+            display: inline;
+            padding: 5px;
+            border: 3px solid blue;
+            background-color: yellow;
+        }
+        .inline-block1{
+            display: inline-block;
+            width: 200px;
+            height: 35px;
+            padding: 5px;
+            border: 3px solid blue;
+            background-color: yellow;
+        }
+        .inline-block2{
+            display: inline-block;
+            width: 130px;
+            height: 70px;
+            padding: 5px;
+            border-top: 0;
+            border: 3px solid blue;
+            background-color: yellow;
+        }
+        .block{
+            display: block;
+            height: 100px;
+            padding: 5px;
+            border:3px solid blue;
+            background-color: yellow;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The CSS Display Property</h1>
+
+    <h2>display: inline</h2>
+    <div>Any height and width properties have no effect on an inline element. <span class="inline">By default,</span><span class="inline">inline</span>elements display on the same line as other inline elements. Inline elements are only as wide as they need to be, i.e., they are only as wide as their content.
+    </div>
+
+    <h2>display: inline-block</h2>
+    <div>Like a block element, you can set the <span class="inline-block1">height and width</span>of an inline-block element. Inline-block elements, though, display <span class="inline-block2">on the same line</span>, just like an inline element.</div>
+
+    <h2>display: block</h2>
+    <div>Block elements are the opposite of inline elements. Remember that inline elements display on the same line. <span class="block">Block elements, however, start on a new line</span><span class="block">and willl take up the full width of their parent container.</span>Commonly used block elements include:
+
+    <ul>
+        <li><code>div</code></li>
+        <li><code>h1-h6</code></li>
+        <li><code>p</code></li>
+        <li><code>li</code></li>
+
+    </ul></div>
+
+
+
+</body>
+</html>
